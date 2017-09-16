@@ -93,7 +93,7 @@ int main(int argc, char** argv)
 	} else {
 		time_window_ms = DEFAULT_TIME_WINDOW;
 	}
-	printf("Starting key debouncer with time window %d...\r\n", time_window_ms);
+	printf("Starting key debouncer with time window of %d ms...\r\n", time_window_ms);
 	
 	// Set the hook
 	SetHook();
