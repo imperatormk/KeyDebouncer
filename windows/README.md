@@ -1,12 +1,10 @@
-## Windows
-To change visibility of the window set the `#define` in line 6 to `visible` or `invisible`.
+Simply compile into an .exe, and then run. Visual Studio and/or g++ through Cygwin/LXSS is good for this.
 
-Simply compile into an .exe, and then run. Visual Studio is good for this.
+Note: Currently requires some c++11 features. Compilation may require a "-std=c++11" flag.
 
-- `invisible` makes the window of the logger disappear, and it also starts up hidden from view. Note that it is still visible in the task manager.
-- `visible` is visible, and the window does not close when typing. Great for testing it out.
-
-Both of these save the keystrokes to a .txt file when closed.
+Optionally accepts a single command line argument that specifies the time window to use for debouncing in milliseconds. 
+Going lower than around 15ms is not recommended because of concerns raised in articles like this
+http://web.archive.org/web/20121018065403/http://msdn.microsoft.com/en-us/magazine/cc163996.aspx
 
 ---
 
