@@ -1,4 +1,4 @@
-# A simple key debouncer/keyboard chatter removal tool for Windows, Linux and Mac
+# A simple key debouncer/keyboard chatter removal tool for Windows
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 Welcome to this simple key debouncer/keyboard chatter removal tool repo! This program listens for keyboard input and prevents duplicate keys from being accidentally registered within a given time window.
