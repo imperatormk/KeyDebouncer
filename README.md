@@ -7,7 +7,7 @@ Currently only supported on Windows, but the base repository this project was fo
 
 ---
 
-Thanks to https://github.com/GiacomoLaw/Keylogger for the base program!
+Thanks to https://github.com/GiacomoLaw/Keylogger (and subsequently https://github.com/caseyscarborough/keylogger) for the base program!
 
 ---
 
