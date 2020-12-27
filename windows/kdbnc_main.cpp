@@ -74,10 +74,7 @@ void ReleaseHook()
 bool ShouldDebounce(unsigned int keystroke, unsigned int scan_code, LONGLONG curr_time)
 {
 	// ignore mouse clicks or certain keys like backspace, shift, ctrl, etc.
-	if ((keystroke == 1) || (keystroke == 2) || (keystroke == VK_BACK) || (keystroke == VK_RETURN) 
-		|| (keystroke == VK_SHIFT) || (keystroke == VK_LSHIFT) || (keystroke == VK_RSHIFT)
-		|| (keystroke == VK_CONTROL) || (keystroke == VK_LCONTROL) || (keystroke == VK_RCONTROL))
-		return false; 
+	if ((keystroke == 1) || (keystroke == 2)) return false; 
 		
 	//Convert the VK_CODE into a standard ASCII value (despite the fact that it's not really needed in theory) because I just like it better that way
 	//Otherwise, debug logging and/or exit-program-detection is worse
